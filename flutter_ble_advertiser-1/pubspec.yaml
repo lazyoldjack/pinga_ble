@@ -1,0 +1,18 @@
+name: flutter_ble_advertiser
+description: A Flutter application to advertise the phone using Bluetooth Low Energy (BLE).
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue: ^0.8.0 # Add the BLE library dependency
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
